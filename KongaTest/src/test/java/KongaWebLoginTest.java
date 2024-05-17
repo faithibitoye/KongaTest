@@ -28,9 +28,9 @@ import org.testng.annotations.Test;
          driver.findElement(By.xpath("//*[@id=\"nav-bar-fix\"]/div[1]/div/div/div[4]/a")).click();
            Thread.sleep(3000);
          //7.locate the email address/phone number field an input your email address
-         driver.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("faith_ibitoye@outlook.com");
+         driver.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("********itoye@outlook.com");
          //8.Locate password field and input password
-         driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("12345abcde");
+         driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("12345*****");
          //9. Click on the Login button
          driver.findElement(By.xpath("//*[@id=\"app-content-wrapper\"]/div[4]/section/section/aside/div[2]/div/form/div[3]/button")).click();
          Thread.sleep(10000);
